@@ -7,37 +7,37 @@ function renderLicenseBadge(license) {
       label: "",
       badge: "",
       link: "",
-    }
+    },
     {
       license: "Apache License 2.0",
       label: "License",
       badge: "",
       link: "",
-    }
+    },
     {
-      license: "GNU General Public License v3.0",
+      license: "GNU General Public License v2.0",
       label: "License",
       badge: "",
       link: "",
-    }
+    },
     {
       license: "MIT License",
       label: "License",
       badge: "",
       link: "",
-    }
+    },
     {
       license: "BSD 2-Clause Simplified License",
       label: "License",
       badge: "",
       link: "",
-    }
+    },
     {
       license: "Mozilla Public License 2.0",
       label: "License",
       badge: "",
       link: "",
-    }
+    },
   ]
 }
 
