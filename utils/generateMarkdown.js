@@ -11,32 +11,32 @@ function renderLicenseBadge(license) {
     {
       license: "Apache License 2.0",
       label: "License",
-      badge: "",
-      link: "",
+      badge: "https://img.shields.io/badge/License-Apache_2.0-blue.svg",
+      link: "https://choosealicense.com/licenses/apache-2.0/",
     },
     {
-      license: "GNU General Public License v2.0",
+      license: "GNU General Public License v3.0",
       label: "License",
-      badge: "",
-      link: "",
+      badge: "https://img.shields.io/badge/License-GPL_v2-blue.svg",
+      link: "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html",
     },
     {
       license: "MIT License",
       label: "License",
-      badge: "",
-      link: "",
+      badge: "https://img.shields.io/badge/license-MIT-red.svg",
+      link: "https://choosealicense.com/licenses/mit/",
     },
     {
       license: "BSD 2-Clause Simplified License",
       label: "License",
-      badge: "",
-      link: "",
+      badge: "https://img.shields.io/badge/License-BSD_2--Clause-orange.svg",
+      link: "https://opensource.org/license/bsd-2-clause/",
     },
     {
       license: "Mozilla Public License 2.0",
       label: "License",
-      badge: "",
-      link: "",
+      badge: "https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg",
+      link: "https://opensource.org/license/mpl-2-0/",
     },
   ]
 }
