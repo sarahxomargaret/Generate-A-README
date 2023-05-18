@@ -7,6 +7,8 @@ I used Node.js JavaScript to create an application that is ran within the termin
 ## Usage
 [generatereadme.webm](https://github.com/sarahxomargaret/Generate-A-README/assets/127162545/29c4601f-7a7b-4d03-bad1-df2b9056b40d)
 
+[Click here](https://drive.google.com/file/d/1p2sZeAddmfQgDCz2YjzoGQaFwJYmpF6J/view) if video above does not play.
+
 https://github.com/sarahxomargaret/Generate-A-README
 
 ## License
