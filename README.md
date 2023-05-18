@@ -2,6 +2,8 @@
 
 ## Description
 
+I used Node.js JavaScript to create an application that is ran within the terminal. Inquirer was installed and used to ask questions to generate a README document for any project. To start the questions, simply type "node index".
+
 ## Usage
 [generatereadme.webm](https://github.com/sarahxomargaret/Generate-A-README/assets/127162545/29c4601f-7a7b-4d03-bad1-df2b9056b40d)
 
