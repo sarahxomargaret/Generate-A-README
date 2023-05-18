@@ -18,11 +18,6 @@ const questions = [
       },
       {
         type: "input",
-        name: "tableOfContents",
-        message: "",
-      },
-      {
-        type: "input",
         name: "installation",
         message: "Are there any installation instructions:",
       },
