@@ -8,32 +8,32 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        name: "project_title",
+        name: "title",
         message: "What is the name of the project?",
       },
       {
         type: "input",
-        name: "project_description",
+        name: "description",
         message: "Please write a description of the project:",
       },
       {
         type: "input",
-        name: "project_tableOfContents",
+        name: "tableOfContents",
         message: "",
       },
       {
         type: "input",
-        name: "project_installation",
+        name: "installation",
         message: "Are there any installation instructions:",
       },
       {
         type: "input",
-        name: "project_usage",
+        name: "usage",
         message: "Are there any directions for usage: ",
       },
       {
         type: "list",
-        name: "project_license",
+        name: "projectLicense",
         message: "Please choose a license for the project: ",
         choices: [
             "None",
@@ -46,40 +46,41 @@ const questions = [
       },
       {
         type: "input",
-        name: "project_contributing",
+        name: "contributing",
         message: "Are there any contributing guidelines: ",
       },
       {
         type: "input",
-        name: "project_tests",
+        name: "tests",
         message: "Are there any instuctions for testing: ",
       },
       {
         type: "input",
-        name: "project_questions",
+        name: "questions",
         message: "",
       },
       {
         type: "input",
-        name: "project_username",
+        name: "username",
         message: "What is your GitHub username: ",
       },
       {
         type: "input",
-        name: "project_email",
+        name: "email",
         message: "What is your e-mail address: ",
       },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-}
 
-// TODO: Create a function to initialize app
+// initialize app
 function init() {
-  inquirer
-    .prompt(questions)
-    .then((data) => ("generateREADME", data));
+  inquirer.prompt(questions)
+      .then((data) => {
+          //create readme file  
+          fs.writeFile('generateREADME.md', generateMarkdown(data), (err) =>
+              err ? console.log(err) : console.log('README.md file completed')
+          );
+      });
 }
 // Function call to initialize app
 init();
